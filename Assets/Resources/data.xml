@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+    <Blocks>
+     
+        <Item id ="stick1" pattern="0" />
+        <Item id ="vstick2" pattern="0,4" />
+        <Item id ="vstick3" pattern="0,4,8" />
+        <Item id ="vstick4" pattern="0,4,8,12" />
+        <Item id ="vstick5" pattern="0,4,8,12,16" />
+        <Item id ="hstick2" pattern="0,1" />
+        <Item id ="hstick3" pattern="0,1,2" />
+        <Item id ="hstick4" pattern="0,1,2,3" />
+        <Item id ="l4a" pattern="0,1,2,3,4" />
+        <Item id ="l4b" pattern="0,1,2,3,7" />
+        <Item id ="l4c" pattern="0,4,5,6,7" />
+        <Item id ="l4d" pattern="3,4,5,6,7" />
+        <Item id ="l3a" pattern="1,2,3,5" />
+        <Item id ="l3b" pattern="1,2,3,7" />
+        <Item id ="l3c" pattern="1,5,6,7" />
+        <Item id ="l3d" pattern="3,5,6,7" />
+        <Item id ="vl3a" pattern="0,4,8,9" />
+        <Item id ="vl3b" pattern="0,1,4,8" />
+        <Item id ="l2a" pattern="0,1,4" />
+        <Item id ="l2c" pattern="0,4,5" />
+        
+        
+        
+    </Blocks>
+
+    <Letters>
+        <Letter id="A">
+            <BlockRefs>
+                <Block id="l4a" pos="0" />
+                <Block id="l4d"  pos="7" />
+                <Block id="vstick2"  pos="12" />
+                <Block id="vstick2"  pos="15" />
+            </BlockRefs>
+        
+       
+        </Letter>
+        <Letter id="B">
+            <BlockRefs>
+                <Block id="vstick5" pos="0" />
+                <Block id="l3b"  pos="1" />
+                <Block id="hstick3"  pos="9" />
+                <Block id="l3d"  pos="15" />
+            </BlockRefs>
+        </Letter>
+        <Letter id="C">
+            <BlockRefs>
+                <Block id="hstick2" pos="2" />
+                <Block id="l2a"  pos="0" />
+                <Block id="vl3a"  pos="8" />
+                <Block id="stick1"  pos="18" />
+                <Block id="stick1"  pos="19" />
+            </BlockRefs>
+        </Letter>
+        <Letter id="N">
+            <BlockRefs>
+                <Block id="l2c" pos="0" />
+                <Block id="vl3b" pos="8" />
+                <Block id="vstick2" pos="10" />
+                <Block id="vstick2" pos="3" />
+                <Block id="vstick3" pos="11" />
+            </BlockRefs>
+        </Letter>
+    </Letters>
+
+
+    <Levels>
+        <Level index="0">
+            <Letters>
+                <Letter id="A" />
+            </Letters>
+        </Level>
+
+        <Level index="1">
+            <Letters>
+                <Letter id="B" />
+                <Letter id="A" />
+            </Letters>
+        </Level>
+        
+        <Level index="2">
+            <Letters>
+                <Letter id="C" />
+                <Letter id="A" />
+                <Letter id="N" />
+            </Letters>
+            
+        </Level>
+        <Level index="1">
+            <Letters>
+                <Letter id="B" />
+            </Letters>
+        </Level>
+
+    </Levels>
+</data>
